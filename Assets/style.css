@@ -1,0 +1,406 @@
+.btn {
+  color: rgb(255, 255, 255);
+  background-color: rgb(175, 12, 64);
+  border: 0cap;
+  margin-left: 90%;
+}
+.carousel-inner{
+  padding: 0px;
+  margin-bottom: 50px;
+  align-items: center;
+  opacity:80%;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.5rem; /* Adjust for larger text */
+  text-align: center;
+  z-index: 10;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for better visibility */
+  width: 80%; /* Optional: Adjust width to prevent overflow */
+}
+.head-2{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-2{
+  background-color:  rgb(175, 12, 64);
+  color: aliceblue;
+  left: 40px;
+  text-decoration: none;
+  border: rgb(175, 12, 64);
+  padding: 5px;
+  border-radius: 5px;
+}
+.line-2{
+  color: #ffffff;
+  font-size: large;
+  padding-top: 40px;
+}
+.footer {
+  padding: 20px;
+  background-color: #121212;
+  text-align: center;
+}
+
+.footer .newsletter {
+  margin-bottom: 20px;
+}
+
+.footer .newsletter input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border-radius: 20px;
+  border: 1px solid #eee8e8;
+  margin-right: 10px;
+  outline: none;
+}
+
+.footer .newsletter button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #5865f2;
+  color: white;
+  cursor: pointer;
+}
+
+.footer .menu {
+  margin: 20px 0;
+}
+
+.footer .menu a {
+  margin: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer .menu a:hover {
+  text-decoration: underline;
+}
+
+.footer .social-media a {
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer .copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.footer .language-selector {
+  margin-top: 10px;
+}
+
+.footer .language-selector select {
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+/* For background image */
+.sec-3 {
+  background-color:rgb(175, 12, 64);
+
+}
+
+/* Adjust container styling */
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50em;
+  padding: 20px;
+  margin: auto; /* Center the container horizontally and vertically */
+}
+.person{
+  width: 26em;
+  overflow: hidden;
+  position: absolute;
+  margin-top: 74px;
+  text-shadow: 0 10px 30px rgb(0, 0, 0);
+}
+
+/* Heading styling */
+.head-3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #070707;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Form styling */
+form {
+  text-decoration: none;
+  background-color: #ffffff;
+  border: none;
+  padding: 20px;
+  opacity: 95%;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgb(0, 0, 0);
+  width: 100%;
+  max-width: 400px; /* Ensure the form doesn't exceed a certain width */
+}
+
+/* Button styling */
+.butt {
+  text-decoration: none;
+  border: none;
+  width: 100px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px auto 0;
+  display: block; /* Center the button */
+  background-color: rgb(175, 12, 64);
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+
+
+/* General styles for smaller devices */
+@media (max-width: 1200px) {
+  .text {
+    font-size: 2.2rem; /* Slightly smaller font for text on large tablets */
+    width: 85%; /* Adjust text width */
+  }
+  .btn {
+    margin-left: auto; /* Align buttons to the right properly */
+  }
+  .btn-2 {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+/* Medium devices (tablets, 768px to 992px) */
+@media (max-width: 992px) {
+  .carousel-inner img {
+    height: auto;
+    max-height: 450px;
+  }
+  .text {
+    font-size: 1.8rem;
+    width: 90%;
+  }
+  .card {
+    margin-bottom: 15px;
+  }
+  .container-1 {
+    width: 90%;
+  }
+  .footer .newsletter input[type="email"] {
+    width: 80%;
+  }
+  .btn {
+    margin-left: 0; /* Align button properly */
+    margin-top: 10px;
+  }
+}
+
+/* Small devices (phones, 576px to 768px) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar .btn {
+    margin-left: 0;
+  }
+  .text {
+    font-size: 1.5rem;
+    width: 95%;
+    padding: 0 10px;
+  }
+  .head-2, .head-3 {
+    font-size: 1.6rem;
+  }
+  .footer .newsletter input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .footer .newsletter button {
+    width: 100%;
+  }
+  .footer .menu a {
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+/* Extra-small devices (phones under 576px) */
+@media (max-width: 576px) {
+  .navbar {
+    text-align: center;
+  }
+  .text {
+    font-size: 1.2rem;
+    padding: 0 15px;
+  }
+  .carousel-inner img {
+    max-height: 350px;
+  }
+  .head-2, .head-3 {
+    font-size: 1.4rem;
+  }
+  .container-1 {
+    padding: 15px;
+    width: 100%;
+  }
+  .btn {
+    margin: 10px auto;
+    display: block;
+    width: 100px;
+  }
+  .btn-2 {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+/* Larger devices (desktops 1200px and above) */
+@media (min-width: 1200px) {
+  .text {
+    font-size: 3rem;
+    width: 70%;
+  }
+  .footer .newsletter input[type="email"] {
+    width: 300px;
+  }
+  .footer .newsletter button {
+    padding: 10px 25px;
+  }
+  .container-1 {
+    width: 50em;
+  }
+}
+
+/* Additional tweaks for horizontal layouts on extra-small devices */
+@media (orientation: landscape) and (max-width: 576px) {
+  .carousel-inner img {
+    max-height: 250px;
+  }
+  .text {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+  .btn {
+    width: auto;
+    margin: 10px auto;
+  }
+  .footer {
+    padding: 15px;
+  }
+}
+/* Responsive styles for sec-3 */
+
+/* For tablets and medium-sized devices */
+@media (max-width: 768px) {
+  .sec-3 {
+    flex-direction: column; /* Stack elements vertically */
+    padding: 30px 10px;
+  }
+  .container-1 {
+    width: 80%; /* Take more horizontal space */
+    max-width: 400px;
+  }
+  .person {
+    width: 70%; /* Reduce image size */
+    max-width: 300px;
+  }
+}
+
+/* For small devices (mobile phones) */
+@media (max-width: 576px) {
+  .sec-3 {
+    padding: 20px 5px;
+  }
+  .container-1 {
+    width: 90%;
+    padding: 15px;
+  }
+  .person {
+    width: 80%; /* Shrink further for smaller screens */
+    max-width: 250px;
+    margin: 10px auto;
+  }
+}
+/* General styles for the image */
+.person {
+  display: block; /* Ensure it's visible by default */
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+/* Hide the image on small devices (e.g., phones and tablets) */
+@media (max-width: 820px){
+  .person {
+    display: none; /* Hide the image for small devices */
+  }
+}
+
+/* Adjust size for laptops and desktops */
+@media (min-width: 769px) and (max-width: 1366px) {
+  .person {
+    width: 35%; /* Adjust to 50% of container width */
+    max-width: 400px; /* Limit maximum width */
+    margin: 140px auto;
+  }
+}
+@media (min-width: 912px) and (max-width: 1366px) {
+  .person {
+    width: 30%; /* Adjust to 50% of container width */
+    max-width: 400px; /* Limit maximum width */
+    margin: 218px auto;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1366px) {
+  .person {
+    width: 50%; /* Adjust to 50% of container width */
+    max-width: 450px; /* Limit maximum width */
+    margin: 2px auto;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .person {
+    width: 32%; /* Adjust to 50% of container width */
+    max-width: 400px; /* Limit maximum width */
+    margin: 103px auto;
+  }
+}
+
+/* Adjust size for large desktop screens (1920x1080 resolution) */
+@media (min-width: 1367px) and (max-width: 1919px) {
+  .person {
+    width: 40%; /* Slightly reduce width for larger screens */
+    max-width: 500px; /* Limit maximum width */
+    margin: 30px auto;
+  }
+}
+
+/* Extra-large screens above 1920px */
+@media (min-width: 1920px) {
+  .person {
+    width: 30%; /* Reduce width further for ultra-wide screens */
+    max-width: 490px;
+    margin: 2px auto;
+  }
+}
+
